@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'budgets.apps.BudgetsConfig',
+    'users.apps.UsersConfig',
     'rest_framework',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -105,6 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTH_USER_MODEL = "core_users.User"
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/

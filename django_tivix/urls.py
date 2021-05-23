@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from budgets.api.urls import router
+from users.api.urls import router as users
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/',include(router.urls))
+    path('api/',include(router.urls)),
+    path('users/',include(users.urls)),
 ]
