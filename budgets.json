@@ -1,0 +1,38 @@
+[
+{
+  "model": "budgets.budget",
+  "pk": 1,
+  "fields": {
+    "category": "Home",
+    "income": 1000,
+    "expenses": 1000
+  }
+},
+{
+  "model": "budgets.budget",
+  "pk": 2,
+  "fields": {
+    "category": "Home",
+    "income": 2222,
+    "expenses": 2221
+  }
+},
+{
+  "model": "budgets.budget",
+  "pk": 3,
+  "fields": {
+    "category": "Food",
+    "income": 150,
+    "expenses": 140
+  }
+},
+{
+  "model": "budgets.budget",
+  "pk": 4,
+  "fields": {
+    "category": "Taxes",
+    "income": 1500,
+    "expenses": 1600
+  }
+}
+]

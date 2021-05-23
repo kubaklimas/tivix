@@ -1,0 +1,66 @@
+[
+{
+  "model": "core_users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$X0zunmAd8lqREeJUFFvKzm$mAxkQWT1G0vEitXLV54JB4vJNmhGDRkiQPCaPC5kOGY=",
+    "last_login": "2021-05-23T12:28:08.646Z",
+    "is_superuser": true,
+    "username": "root",
+    "first_name": "",
+    "last_name": "",
+    "email": "roo@tt.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-05-23T12:27:43.928Z",
+    "groups": [],
+    "user_permissions": [],
+    "budgets": [
+      1
+    ]
+  }
+},
+{
+  "model": "core_users.user",
+  "pk": 2,
+  "fields": {
+    "password": "secretkey",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user2",
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-05-23T13:55:18.946Z",
+    "groups": [],
+    "user_permissions": [],
+    "budgets": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "core_users.user",
+  "pk": 5,
+  "fields": {
+    "password": "secretkey3",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user3",
+    "first_name": "Jane",
+    "last_name": "Toe",
+    "email": "super@mail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-05-23T14:11:32.842Z",
+    "groups": [],
+    "user_permissions": [],
+    "budgets": [
+      2
+    ]
+  }
+}
+]
